@@ -1,0 +1,27 @@
+body{
+  background-image: url('heap-chocolate-coins.jpg');
+  opacity: 1.0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+h1{
+  text-align: center;
+  color: sienna;
+}
+h2{
+  text-align: center;
+  color: burlywood;
+}
+h3{
+  text-align: center;
+  color: beige;
+}
+p{
+  text-align: center;
+}
