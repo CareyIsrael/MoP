@@ -202,7 +202,7 @@
     <div class="container" id="loginForm">
         <span class="close-btn" onclick="hideLoginForm()">&times;</span>
         <div class="text">Login</div>
-        <form action="#">
+        <form>
             <div class="data">
                 <label>Email</label>
                 <input type="text" required>
@@ -212,7 +212,7 @@
                 <input type="password" required>
             </div>
             <div class="btn">
-                <button type="submit">Login</button>
+                <button type="button" onclick="redirectToMainPage()">Login</button>
             </div>
             <div class="signup-link">Not a Member? <a href="#" onclick="showRegisterForm()">Signup now</a></div>
         </form>
@@ -269,6 +269,10 @@
             } else {
                 alert('Please enter a valid email address.');
             }
+        }
+
+        function redirectToMainPage() {
+            window.location.href = 'https://careyisrael.github.io/MOP_mainpage/';
         }
 
         document.getElementById('createAccountForm').addEventListener('submit', function(e) {
